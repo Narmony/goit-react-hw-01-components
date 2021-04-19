@@ -4,14 +4,14 @@ import styles from './statistics.module.css';
 
 const Statistics = ({title, stats}) => {
   return (
-<section class={styles.statistics}>
-    {title &&  <h2 class={styles.title}>{title}</h2>}
+<section className={styles.statistics}>
+    {title &&  <h2 className={styles.title}>{title}</h2>}
  
-  <ul class={styles.list}>
+  <ul className={styles.list}>
       {stats.map((stat) =>(
-        <li class={styles.item} key={stat.id}>
-        <span class={styles.label}>{stat.label}</span>
-        <span class={styles.percentage}>{stat.percentage}%</span>
+        <li className={styles.item} key={stat.id}>
+        <span className={styles.label}>{stat.label}</span>
+        <span className={styles.percentage}>{stat.percentage}%</span>
         </li>
       ))}
    

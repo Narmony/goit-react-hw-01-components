@@ -5,10 +5,10 @@ const FriendsListItem = ({avatar, name, isOnline, key}) =>{
    
 return (
   
-    <li class={styles.item} key ={key}>
-  <span class={status}>{isOnline}</span>
-  <img class={styles.avatar} src={avatar} alt={name} width="48" />
-  <p class={styles.name}>{name}</p>
+    <li className={styles.item} key ={key}>
+  <span className={status}>{isOnline}</span>
+  <img className={styles.avatar} src={avatar} alt={name} width="48" />
+  <p className={styles.name}>{name}</p>
 </li>
 )
 

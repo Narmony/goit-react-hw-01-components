@@ -4,7 +4,7 @@ import styles from './friendsList.module.css'
 
 const FriendsList = ({friends}) => {
   return (
-<ul class={styles.list}>
+<ul className={styles.list}>
 {friends.map((friend) =>(
     <FriendsListItem 
     key = {friend.id}
