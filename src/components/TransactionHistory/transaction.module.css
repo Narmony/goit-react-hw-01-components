@@ -1,0 +1,30 @@
+.transactionHistory{
+ width: 600px;
+ text-align: center;
+ border-collapse: collapse;
+ border-spacing: 0;
+ border: 0;
+ margin-top: 40px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.titleItem{
+    height: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(52, 175, 212);
+}
+.item{
+    height: 40px;
+    color:rgb(95, 103, 107);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+tr:nth-child(2n){
+    background-color: rgb(203, 234, 240);
+}
