@@ -1,23 +1,23 @@
-.statistics{
-width: 300px;
-margin: 40px auto;
-border: 1px solid rgb(166, 175, 174)
+.statistics {
+    width: 300px;
+    margin: 40px auto;
+    border: 1px solid rgb(166, 175, 174);
 }
-.title{
-text-align:center;
-margin:0;
-padding: 10px 5px;
-color:rgb(151, 159, 167);
-border-bottom: 1px solid rgb(166, 175, 174);
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 10px 5px;
+    color: rgb(151, 159, 167);
+    border-bottom: 1px solid rgb(166, 175, 174);
 }
-.list{
+.list {
     list-style: none;
-display: flex;
-padding:0;
-margin:0;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
-.item{
+.item {
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -25,22 +25,21 @@ margin:0;
     text-align: center;
     padding: 10px 0 10px;
     flex-direction: column;
-
 }
-.item:not(:last-child){
+.item:not(:last-child) {
     border-right: 1px solid rgb(194, 233, 238);
 }
 
-.item:nth-child(2n){
+.item:nth-child(2n) {
     background-color: rgb(222, 238, 245);
 }
 
-.label{
-font-size: 14px;
-color:rgb(151, 159, 167)
+.label {
+    font-size: 14px;
+    color: rgb(151, 159, 167);
 }
 
-.percentage{
-margin-top: 5px;
-font-size: 18px;;
+.percentage {
+    margin-top: 5px;
+    font-size: 18px;
 }
